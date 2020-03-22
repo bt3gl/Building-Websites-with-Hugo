@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>watch on TripDrop</title>
+    <link>https://website.steinkirch.now.sh/categories/watch/</link>
+    <description>Recent content in watch on TripDrop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2019 13:39:07 +0600</lastBuildDate>
+    
+	<atom:link href="https://website.steinkirch.now.sh/categories/watch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Classic Watch</title>
+      <link>https://website.steinkirch.now.sh/shop/classic-watch/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/classic-watch/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+    <item>
+      <title>Hand Watch</title>
+      <link>https://website.steinkirch.now.sh/shop/hand-watch/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/hand-watch/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+    <item>
+      <title>Ladies Watch</title>
+      <link>https://website.steinkirch.now.sh/shop/ladies-watch/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/ladies-watch/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+    <item>
+      <title>Smart Watch</title>
+      <link>https://website.steinkirch.now.sh/shop/smart-watch/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/smart-watch/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+  </channel>
+</rss>

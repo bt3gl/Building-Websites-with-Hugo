@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bag on TripDrop</title>
+    <link>https://website.steinkirch.now.sh/categories/bag/</link>
+    <description>Recent content in bag on TripDrop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2019 13:39:07 +0600</lastBuildDate>
+    
+	<atom:link href="https://website.steinkirch.now.sh/categories/bag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Female Bag</title>
+      <link>https://website.steinkirch.now.sh/shop/female-bag/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/female-bag/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+    <item>
+      <title>Hand Bag</title>
+      <link>https://website.steinkirch.now.sh/shop/hand-bag/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/hand-bag/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+    <item>
+      <title>Orange Bag</title>
+      <link>https://website.steinkirch.now.sh/shop/orange-bag/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/orange-bag/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+    <item>
+      <title>Purse</title>
+      <link>https://website.steinkirch.now.sh/shop/purse/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/shop/purse/</guid>
+      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
+    </item>
+    
+  </channel>
+</rss>

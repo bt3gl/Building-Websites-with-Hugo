@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on TripDrop</title>
+    <link>https://website.steinkirch.now.sh/categories/</link>
+    <description>Recent content in Categories on TripDrop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2019 13:39:07 +0600</lastBuildDate>
+    
+	<atom:link href="https://website.steinkirch.now.sh/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bag</title>
+      <link>https://website.steinkirch.now.sh/categories/bag/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/categories/bag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shirt</title>
+      <link>https://website.steinkirch.now.sh/categories/shirt/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/categories/shirt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shoe</title>
+      <link>https://website.steinkirch.now.sh/categories/shoe/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/categories/shoe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tops</title>
+      <link>https://website.steinkirch.now.sh/categories/tops/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/categories/tops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>watch</title>
+      <link>https://website.steinkirch.now.sh/categories/watch/</link>
+      <pubDate>Mon, 25 Nov 2019 13:39:07 +0600</pubDate>
+      
+      <guid>https://website.steinkirch.now.sh/categories/watch/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

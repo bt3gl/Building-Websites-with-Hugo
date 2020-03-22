@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact on TripDrop</title>
+    <link>https://website.steinkirch.now.sh/search/</link>
+    <description>Recent content in Contact on TripDrop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2019 13:39:07 +0600</lastBuildDate>
+    
+	<atom:link href="https://website.steinkirch.now.sh/search/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

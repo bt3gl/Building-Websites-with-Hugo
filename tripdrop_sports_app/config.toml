@@ -1,0 +1,179 @@
+######################## default configuration ####################
+baseURL = "https://tripdrop-sports-app.now.sh/"
+languageCode = "en-us"
+title = "TripDrop"
+theme = "hargo"
+summaryLength = "20"
+paginate = 10
+disqusShortname = ""
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  link = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  link = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  link = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  link = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  link = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  link = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  link = "plugins/google-map/gmap.js"
+
+  
+############################## navigation ###############################
+[menu]
+    
+  [[menu.main]]
+  name = "Shop"
+  URL = ""
+  weight = 1
+  
+  [[menu.main]]
+  name = "Blog"
+  URL = ""
+  weight = 2
+  
+  [[menu.main]]
+  name = "FAQ"
+  URL = ""
+  weight = 3
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = ""
+  weight = 4
+
+  ############# footer menu #############
+  [[menu.footer]]
+  name = "Shop Gear"
+  URL = ""
+  weight = 1
+  
+  [[menu.footer]]
+  name = "Blog"
+  URL = ""
+  weight = 2
+  
+  [[menu.footer]]
+  name = "FAQ"
+  URL = ""
+  weight = 3
+  
+  [[menu.footer]]
+  name = "Terms & Conditions"
+  URL = ""
+  weight = 4
+  
+  [[menu.footer]]
+  name = "Contact"
+  URL = ""
+  weight = 5
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+home = "Home"
+# Meta data
+description = "Start your trip off right with the gear you want and need."
+author = "Themefisher"
+# google map
+gmapAPI = ""
+mapLatitude = ""
+mapLongitude = ""
+mapMarker = "images/marker.png"
+# Google Analitycs
+googleAnalitycsID = ""
+# Contact Information
+mobile = "+1 ‪(818) 777-7777‬"
+email = "info@tripdrop.com"
+location = "Made with 🔋 in California"
+# copyright
+copyright = "Ⓒ TripDrop 2020 - Start your trip off right with the gear you want and need. - Hugo is awesome!"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # Product Rating
+  # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
+  [params.rating]
+  enable = false
+  websiteID = ""
+  publicKey = ""
+
+  # Social Site
+  [[params.social]]
+  icon = "ti-facebook"
+  link = ""
+  
+  [[params.social]]
+  icon = "ti-twitter-alt"
+  link = ""
+  
+  [[params.social]]
+  icon = "ti-instagram"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-linkedin"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-youtube"
+  link = "#"
+
+  [[params.social]]
+  icon = "ti-vimeo"
+  link = "#"
+
+
+  # Contact Form
+  [params.contact]
+  formAction = "https://formspree.io/mvokewoo" # contact form works with formspree.io
+
+
+#################### deployment ################################
+
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "mydeployment"
+
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+URL = "s3://tripdrop.co?region=us-east-1"
+
+# [[deployment.matchers]] configure behavior for files that match the Pattern.
+# Samples:
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true

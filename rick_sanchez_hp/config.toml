@@ -1,0 +1,70 @@
+baseURL = "http://ricksanchez.com.s3-website-us-east-1.amazonaws.com"
+languageCode = "en-us"
+title = "Rick Sanchez"
+theme = "hugo-split-theme"
+googleAnalytics = ""
+
+[[params.links]]
+  [params.links.list1]
+    heading = "Selected Skills"
+
+    [[params.links.list1.link]]
+      text = "Spaceship piloting."
+      url = "https://me.me/i/brief-introduction-to-the-multiverse-by-rick-sanchez-the-multiverse-8633338"
+
+    [[params.links.list1.link]]
+      text = "Electrical and mechanics engineering"
+      url = "https://me.me/i/99-8-900-will-fail-only-for-rick-morty-fans-3-3x6-2-19019060"
+
+    [[params.links.list1.link]]
+      text = "Software development and Machine learning"
+      url = "https://me.me/i/rick-sanchez-president-make-america-schwifty-again-2574337"
+    
+
+[[params.links]]
+  [params.links.list1]
+    heading = "Selected Achievements"
+
+    [[params.links.list1.link]]
+      text = "Traveling through space."
+      url = "https://thedigitalwise.com/2020/01/26/rick-and-morty-5-darkest-memes-that-will-drive-you-straight-to-binge-watch-the-series/"
+
+    [[params.links.list1.link]]
+      text = "Saving the Earth."
+      url = "https://heavy.com/entertainment/2020/02/rick-and-morty-pringles-ad-inspires-wall-tearing-memes/"
+
+    [[params.links.list1.link]]
+      text = "Teaching science to my grandchildren."
+      url = "https://me.me/i/iturned-myself-into-rick-morty-block-do-you-know-what-22071715"
+
+
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "ricksanchez-s3"
+
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+ URL = "s3://ricksanchez.com?region=us-east-1"
+
+
+[[deployment.matchers]]
+#  Cache static assets for 20 years.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=630720000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true

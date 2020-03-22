@@ -1,0 +1,48 @@
+########################## About ############################
+about:
+  enable : true
+  aboutItem:
+    # about item loop
+    - title : "Our Mission"
+      image : "images/about/about-1.jpg"
+      content : "Praesent blandit dolorhon quam. In vemi sit amet augue congue elementum. Morbi in ipsum sit amet pede
+            facilisis laoreet."
+            
+    # about item loop
+    - title : "Our Vission"
+      image : "images/about/about-3.jpg"
+      content : "Lights together to you’re together. You’ll. Form. Moving created one. Darkness whales fourth from own
+            moved."
+            
+    # about item loop
+    - title : "Statement"
+      image : "images/about/about-2.jpg"
+      content : "Praesent blandit dolorhon quam. In vemi sit amet augue congue elementum. Morbi in ipsum sit amet pede
+            facilisis laoreet."
+
+
+###########################  Team ############################
+team:
+  enable : true
+  title : "Team Members"
+  subtitle : "Dedicated team behind the scene"
+  teamMember:
+    # team member loop
+    - name : "Jonathon Andrew"
+      image : "images/team/team-img-1.jpg"
+      designation : "Founder"
+      
+    # team member loop
+    - name : "Adipisci Velit"
+      image : "images/team/team-img-2.jpg"
+      designation : "Photographer"
+      
+
+
+############################# Instagram feed ###################
+instafeed:
+  enable : true
+  title : "Follow Us On Instagram"
+  username : "@ Cupidatat"
+  userID : "4044026246"
+  accessToken : "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
