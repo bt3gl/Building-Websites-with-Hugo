@@ -11,7 +11,3 @@ This repository contains the following projects:
 * [🦹🏽 Project III: A Sports App Website deployed with Zeit.co](https://github.com/bt3gl/Building-Websites-with-Hugo/tree/master/tripdrop_sports_app).
 
 To learn how to run and deploy these projects, please check [this medium article](https://medium.com/python-for-the-utopian/deploying-websites-with-hugo-465dee88a295).
-
----
-
-<a href="https://www.buymeacoffee.com/miavonpizza" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-pink.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
